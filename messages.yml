@@ -1,0 +1,24 @@
+# MyCommands的消息配置
+# 
+# 请注意，不建议在服务器运行时编辑配置！！！
+
+MyCommands:
+  createcommand:
+    alreadyexist: §c这个命令别名§e'%alias%' §c已经存在了!
+    added: §7为命令 §e'%cmd%' §7添加了别名§e'%alias%'!
+  removecommand:
+    notexist: §c对不起, 这个命令别名 '%alias%' 不存在!
+    removed: §7你删除了这个命令别名 §e%alias%!
+  commands:
+    nocommands: §c对不起，但没有命令存在!
+    header: §7命令来自 §cMyCommands
+  prefix: '&cMyCommands &8» '
+  console:
+    notplayer: 你必须是一名玩家才能执行！
+  reload: '&a重新加载所有配置．'
+  noperm:
+    msg: '&c你没有足够的权限！'
+  error:
+    msg: '&c发生错误！'
+  cmd:
+    error: '&c使用 %cmd%&c!'
